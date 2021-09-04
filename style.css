@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  outline: none;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+.nav-link {
+  margin-right: 30px;
+  transition: 0.5s linear;
+  color: lightgrey;
+}
+.nav-link:hover {
+  color: #000;
+}
+.btn {
+  padding: 8px 30px;
+}
+.navbar {
+  padding: 20px 0px;
+  position: fixed;
+  width: 100%;
+}
+.btn:hover {
+  background-color: green;
+  color: #fff;
+  border: 1px solid green;
+}
+.prim:hover {
+  background-color: blue;
+}
+.banner {
+  background-color: #f0f5f9;
+  display: flex;
+  align-items: center !important;
+  padding: 112px 80px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: space-around;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+.section1 {
+  padding: 50px 0px;
+}
+.section1 h6 {
+  color: green;
+}
+.divs {
+  display: flex;
+  justify-content: space-between;
+}
+.div1 {
+  padding: 50px;
+  margin-right: 20px;
+  background-color: #fff2e5;
+}
+.div1:nth-child(3) {
+  margin-right: 0;
+}
+.cat {
+  /* margin-left: -30px; */
+  width: 100px;
+}
+.section1 h1 {
+  color: #383b61;
+}
+.div2 {
+  background-color: #f8f9fa;
+}
+.div3 {
+  background-color: #f0f5f9;
+}
+.alt {
+  width: 70%;
+}
+.texts {
+  width: 60%;
+}
+.part1 {
+  display: flex;
+  align-items: center;
+}
+.section2 {
+  background-color: #f0f5f9;
+  padding: 50px;
+}
+.df img {
+  margin-right: 15px;
+}
+.df {
+  margin-bottom: 15px;
+}
+.part2 {
+  display: flex;
+  margin-top: 50px;
+}
+.textse {
+  margin-right: 100px;
+}
+.section3 {
+  text-align: center;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+.icon img {
+  width: 100px;
+}
+.section3 {
+  padding: 50px 0px;
+}
+.section4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f5f9;
+  padding: 100px 20px 50px 20px;
+}
+.tex {
+  width: 40%;
+}
+.big {
+  font-size: 50px;
+}
+.slide {
+  width: 60%;
+}
+.person {
+  display: flex;
+  align-items: center;
+}
+.lorem {
+  margin-left: 15px;
+}
+.person img {
+  border-radius: 50%;
+  width: 70px;
+}
+.lorem {
+  display: flex;
+  flex-direction: column;
+}
+.ipsum {
+  margin-right: 20px;
+  width: 60px;
+}
+.pricing{
+    padding: 150px 0px;
+    text-align: center;
+}
+.prices{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.price{
+    text-align: center;
+    background-color: #F0F5F9;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+.email{
+    width: 500px;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 15px 0px 0px 15px;
+}
+.bt{
+    outline: none;
+    padding: 15px 30px; 
+    border: 1px solid #000;
+    border-radius: 0px 15px 15px 0px;
+}
+.dive{  
+    border: none;
+    display: flex;
+    /* border-radius: 15px; */
+    margin-top: 30px;
+}
+.connect{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    padding: 100px 0px;
+}
+.form{
+    margin: auto;
+}
+footer{
+    background-color: #F0F5F9;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons i{
+    color: green;
+}
+.icons{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.as a{
+    color: grey;
+}
+.as{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
